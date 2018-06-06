@@ -1,0 +1,49 @@
+#container {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+#informations {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.6em;
+  background-color: 
+}
+#photo {
+  grid-column: 3;
+  grid-row: 1;
+  
+}
+#poste {
+  grid-column: 1/3;
+  grid-row: 2;
+  color: Orange;
+  text-shadow: 5px 5px 2px black;
+}
+.profil {
+  border: 3px solid white;
+    border-radius: 500%;
+}
+#formations {
+  grid-column : 1/3;
+  grid-row: 3;
+}
+#experiences {
+  grid-column: 1/3;
+  grid-row: 4;
+}
+#competences {
+  grid-column: 1/3;
+  grid-row: 5;
+}
+#loisirs {
+  grid-column: 1/3;
+  grid-row: 6;
+}
+h2 {
+  text-decoration : underline;
+  font-weight : bold;
+  text-align: left;
+  font-size: 1.7em;
+}
